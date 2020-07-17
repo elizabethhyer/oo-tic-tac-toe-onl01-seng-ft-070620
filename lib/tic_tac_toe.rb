@@ -78,7 +78,7 @@ class TicTacToe
     if 
       @board.include?(WIN_COMBINATIONS)
     else 
-     @board. WIN_COMBINATIONS
+     
     end 
   end 
   
