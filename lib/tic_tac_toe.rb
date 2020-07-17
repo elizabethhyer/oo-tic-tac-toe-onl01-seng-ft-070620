@@ -66,10 +66,11 @@ class TicTacToe
     user_input = gets.chomp
     index = input_to_index(user_input)
     if
-      index.valid_move?(index) 
+      valid_move?(index) 
       puts move(index, token = "X")
     else 
-      
+      !valid_move?(index)
+      puts "Please enter a number between 1 and 9" 
     end 
   end 
   
