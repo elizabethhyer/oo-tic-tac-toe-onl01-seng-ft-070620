@@ -103,7 +103,9 @@ class TicTacToe
     end 
   end 
   
-  def winner
+  def winner(board)
+    index = []
+    index = won?(board)
     
   end 
   
