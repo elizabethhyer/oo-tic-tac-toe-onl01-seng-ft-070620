@@ -77,7 +77,7 @@ class TicTacToe
   def won? 
     if 
       WIN_COMBINATIONS.each do |winning_board|
-        
+        wi
     else 
       @board.any?(WIN_COMBINATIONS)
     end 
