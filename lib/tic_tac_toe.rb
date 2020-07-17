@@ -84,6 +84,7 @@ class TicTacToe
       WIN_COMBINATIONS.any? {|winning_array|}
       if winning_array.all? {|num| board[num] == "O"}
         return winning_array
+      end
     end 
   end 
   
