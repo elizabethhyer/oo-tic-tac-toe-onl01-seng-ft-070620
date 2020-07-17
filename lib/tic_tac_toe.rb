@@ -56,6 +56,7 @@ class TicTacToe
         turns_played += 1
       end
     end 
+    turns_played
   end 
   
   #def turn 
