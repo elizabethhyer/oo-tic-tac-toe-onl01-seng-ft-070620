@@ -118,12 +118,12 @@ class TicTacToe
   end 
   
 def play 
-    until TicTacToe == over?
+    until over?
     turn
   end 
-  if TicTacToe == won?
+  if won?
     puts "Congratulations Winner!"
-  elsif TicTacToe == draw?
+  elsif draw?
     puts "The game has ended in a draw"
   end 
  
