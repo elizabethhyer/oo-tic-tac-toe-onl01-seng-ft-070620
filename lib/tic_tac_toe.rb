@@ -127,5 +127,5 @@ def play
   elsif draw?
     prints "Cat's Game!"
   end 
- 
+ end 
 end 
