@@ -70,7 +70,7 @@ class TicTacToe
       puts move(index, token = "X")
     else 
       !valid_move?(index)
-      puts "Please enter a number between 1 and 9" 
+      puts turn
     end 
   end 
   
