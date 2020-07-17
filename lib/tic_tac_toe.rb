@@ -121,7 +121,8 @@ class TicTacToe
     #until the game is over
     until @board = over? == true
   #take turns
-      
+      turn 
+    end 
 #end
  
 #if the game was won
