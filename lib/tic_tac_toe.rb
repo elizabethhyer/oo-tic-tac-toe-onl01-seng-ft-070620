@@ -119,7 +119,7 @@ class TicTacToe
   
   def play 
     #until the game is over
-    until TicTacToe = over?
+    until  over?
   #take turns
       TicTacToe = turn 
     end 
