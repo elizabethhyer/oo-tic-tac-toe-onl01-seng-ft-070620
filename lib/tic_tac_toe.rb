@@ -1,3 +1,5 @@
+require'pry'
+
 class TicTacToe
   
   WIN_COMBINATIONS = [
@@ -65,6 +67,7 @@ class TicTacToe
     index = input_to_index(user_input)
     if
       index.valid_move?(index) 
+      binding.pry
     else 
       
     end 
