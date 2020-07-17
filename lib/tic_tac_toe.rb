@@ -49,6 +49,7 @@ class TicTacToe
       turn_count.odd?
       "O"
     end 
+    biding.pry
   end
   
   def turn_count
