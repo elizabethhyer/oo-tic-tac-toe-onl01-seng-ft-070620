@@ -123,7 +123,7 @@ def play
   end 
   if won? 
     puts "Congratulations #{winner}!"
-  else 
+  else draw?
     prints "Cat's Game!"
   end 
 end 
