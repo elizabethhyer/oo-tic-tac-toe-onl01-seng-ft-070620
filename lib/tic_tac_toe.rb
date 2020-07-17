@@ -83,15 +83,15 @@ class TicTacToe
     false
   end 
   
-  def full
+  def full?
     
   end 
   
-  def draw
+  def draw?
     
   end 
   
-  def over 
+  def over ?
     
   end 
   
