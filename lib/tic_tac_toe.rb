@@ -76,15 +76,8 @@ class TicTacToe
   
   def won? 
     if 
-      WIN_COMBINATIONS.any? {|winning_array|}
-      if winning_array.all? {|num| board[num] == "X"}
-        return winning_array
-      end 
+      @board.any?(WIN_COMBINATIONS)
     else 
-      WIN_COMBINATIONS.any? {|winning_array|}
-      if winning_array.all? {|num| board[num] == "O"}
-        return winning_array
-      end
     end 
   end 
   
