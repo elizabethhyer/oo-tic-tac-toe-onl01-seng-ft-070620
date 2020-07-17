@@ -2,7 +2,5 @@
 require 'pry'
 require_relative '../lib/tic_tac_toe.rb'
 
-
-def initialize(TicTacToe) 
-  
-end 
+new_game = TicTacToe 
+new_game.play
