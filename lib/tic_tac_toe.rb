@@ -59,9 +59,9 @@ class TicTacToe
     turns_played
   end 
   
-  #def turn 
-   # puts "Please enter a number between 1 and 9" 
-  #  user_input = gets.chomp 
-  #end 
+  def turn 
+   puts "Please enter a number between 1 and 9" 
+   user_input = gets.chomp 
+  end 
   
 end 
