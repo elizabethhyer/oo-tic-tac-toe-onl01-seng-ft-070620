@@ -76,7 +76,7 @@ class TicTacToe
   
   def won? 
     if 
-      @board.include?(WIN_COMBINATIONS)
+      @board.any?(WIN_COMBINATIONS)
     else 
      
     end 
