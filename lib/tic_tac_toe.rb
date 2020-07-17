@@ -119,7 +119,7 @@ class TicTacToe
   
   def play 
     #until the game is over
-    until @board = over? == true
+    until @board.over? == true
   #take turns
       turn 
     end 
