@@ -122,7 +122,7 @@ def play
     turn
   end 
   if won?
-    puts "Congratulations Winner!"
+    puts "congratulations Winner!"
   elsif draw?
     puts "Cat's Game!"
   end 
