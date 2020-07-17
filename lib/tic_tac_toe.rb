@@ -54,7 +54,8 @@ class TicTacToe
     @board.each do |square| 
       if square == "O" || square == "X"
         turns_played += 1
-      end 
+      end
+    end 
   end 
   
   #def turn 
