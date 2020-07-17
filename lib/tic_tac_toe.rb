@@ -124,7 +124,7 @@ def play
   if won?
     puts "Congratulations Winner!"
   elsif draw?
-    puts "The game has ended in a draw"
+    puts "Cat's Game!"
   end 
  
 end 
